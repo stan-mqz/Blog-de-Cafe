@@ -25,8 +25,7 @@ body{
 
 /**Globales**/
 .contenedor{
-    max-width: 120rem;
-    width: 85%;
+    width: min(85%, 120rem);
     margin: 0 auto;
 }
 
@@ -92,6 +91,10 @@ img{
         margin-top: 12rem;
     }
     
+}
+
+.barra{
+    padding-top: 4rem;
 }
 
 @media (min-width: 768px) {
@@ -208,7 +211,11 @@ img{
     font-size: 1.7rem;
 }
 
-
+.footer{
+    background-color: var(--negro);
+    padding-bottom: 3rem;
+    margin-top: 4rem;
+}
 
 
 
