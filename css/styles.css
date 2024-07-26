@@ -191,23 +191,29 @@ img{
     margin-bottom: 2rem;
 }
 
-.widget-curso:last-of-type{
+.widget-curso,
+.curso:last-of-type{
     border-bottom: none;
     margin-bottom: 0;
 }
 
 
-.widget-curso__label{
+
+.widget-curso__label,
+.curso__label{
     font-family: var(--fuenteHeading);
     font-weight: bold;
 }
 
-.widget-curso__info{
+.widget-curso__info
+.curso__info{
     font-weight: normal;
 }
 
 .widget-curso__label,
-.widget-curso__info{
+.widget-curso__info,
+.curso__label,
+.curso__info{
     font-size: 1.7rem;
 }
 
@@ -232,6 +238,25 @@ img{
         flex-basis: 50%;
     }
 }
+
+/*Cursos*/
+.curso{
+    padding: 3rem 0;
+    border-bottom: 5px solid var(--gris);
+}
+
+.curso:last-of-type{
+   border: none;
+}
+
+@media (min-width: 768px) {
+   .curso{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 2rem;
+   }
+}
+
 
 
 
