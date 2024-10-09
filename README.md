@@ -1,2 +1,2 @@
 # Visita el resultado aqui
-https://stan-mqz.github.io/Blog-de-Cafe/
+https://stan-mqz-proyecto-blog-cafe.netlify.app/
